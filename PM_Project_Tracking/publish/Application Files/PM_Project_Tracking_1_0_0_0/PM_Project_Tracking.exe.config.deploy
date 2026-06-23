@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="PM_Project_Tracking.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2"/>
+    </startup>
+    <userSettings>
+        <PM_Project_Tracking.Properties.Settings>
+            <setting name="InitCatalog" serializeAs="String">
+                <value>PMUCSH</value>
+            </setting>
+            <setting name="AllProjTableName" serializeAs="String">
+                <value>UTPM_ALLPROJ101</value>
+            </setting>
+            <setting name="AwContrTableName" serializeAs="String">
+                <value>UTPM_AWCONTRACTS101</value>
+            </setting>
+            <setting name="MainProjTableName" serializeAs="String">
+                <value>UTPM_MAINAWPROJ101</value>
+            </setting>
+        </PM_Project_Tracking.Properties.Settings>
+    </userSettings>
+</configuration>
